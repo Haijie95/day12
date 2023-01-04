@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<style>
+    .numGen {
+        border: 2px outset black;
+        background-color: white;
+        text-align: left;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="numGen">
+        <h1 style="font-size: 15px;"><strong>How many numbers do you wish to generate?</strong></h1>
+        <form>
+            <input type="text" name="num">
+            <input type="button" value="Generate">
+        </form>
+        <br>
+    </div>
+
+</body>
+
+</html>
